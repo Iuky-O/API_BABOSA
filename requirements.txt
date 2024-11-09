@@ -3,6 +3,6 @@ Flask-CORS
 tensorflow
 numpy
 Pillow
-opencv-python
+opencv-python-headless
 gunicorn
 gdown
