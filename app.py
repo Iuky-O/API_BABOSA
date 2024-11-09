@@ -19,8 +19,11 @@ def download_model():
         print("Baixando o modelo do Google Drive...")
         gdown.download(MODEL_URL, "model.h5", quiet=False)
         print("Modelo baixado com sucesso.")
+        
+# Execute a função apenas se o arquivo não existir localmente
+if not os.path.exists("model.h5"):
+    download_model()
 
-download_model()
 
 # Carregar o modelo pré-treinado
 model = load_model('model.h5')
