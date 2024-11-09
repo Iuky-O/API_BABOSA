@@ -10,7 +10,9 @@ import os
 app = Flask(__name__)
 
 # Habilitar CORS
-CORS(app)
+#CORS(app)
+CORS(app, resources={r"/predict": {"origins": "http://localhost:5500"}})
+
 
 MODEL_URL = 'https://drive.google.com/uc?id=1J5h9BfADV2c8Sw7KOkHh0tBqU3j_bvlW'
 
