@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <b>🌱 PlantConnect 🌱</b></a>
+  <b>🌱 PlantConnect 🌱</b>
 </h1>
     
 ### O Web Site pode ser encontrado em: https://gabstaudt.github.io/PlantConnect/
