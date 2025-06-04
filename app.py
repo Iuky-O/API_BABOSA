@@ -56,5 +56,9 @@ def predict():
     else:
         return jsonify({"error": "Image not received"}), 400
 
+@app.route("/")
+def index():
+    return render_template("index.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
